@@ -23,6 +23,8 @@ a:focus-visible { outline: 3px solid #b16316; outline-offset: 4px; border-radius
 .topbar-inner { min-height: 72px; justify-content: space-between; gap: 16px; }
 .wordmark, .footer-name { font-weight: 760; color: var(--ink); text-decoration: none; }
 .wordmark { font-size: 1.5rem; letter-spacing: -.06em; margin: 0; }
+.topbar .wordmark { display: inline-flex; align-items: center; gap: 10px; }
+.wordmark img { display: block; border-radius: 8px; }
 nav { gap: clamp(14px, 3.5vw, 36px); }
 nav a { color: var(--muted); text-decoration: none; font-size: .94rem; }
 nav a[aria-current="page"] { color: var(--ink); font-weight: 700; text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: .45em; }
